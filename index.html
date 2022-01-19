@@ -52,11 +52,90 @@
           <div class="col-md-4 ml-auto">
             <div class="in-group">
               <button type="button" class="btn btn-success log-in">Войти</button>
-              <button type="button" class="btn btn-success">Зарегистрироваться</button>
+              <button type="button" class="btn btn-success reg-in">Зарегистрироваться</button>
             </div>
           </div>
         </div>
-        <div class="body-text"></div>
+
+
+
+
+        <div class="logIn-form position-absolute bottom-20 end-30">
+          <div class="mb-3 row log-in-form">
+            
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x close-modal" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputUsername1">Username</label>
+              <input type="username" class="form-control" id="exampleInputUsername1" placeholder="Username">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button id="logIn" type="submit" class="btn btn-primary">Log In</button>
+            </div>
+            <div class="form-group">
+              <label class="warn" ></label>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="regIn-form position-absolute bottom-20 end-30">
+          <div class="mb-3 row reg-in-form">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x close-modal" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+              <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp2" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputUsername2">Username</label>
+              <input type="username" class="form-control" id="exampleInputUsername2" placeholder="Username">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Number</label>
+              <input type="number" class="form-control" id="exampleInputNumber2" placeholder="Your number">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Register as:</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Attorney</option>
+                <option value="1">Customer</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputCountry">Country</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Russia</option>
+                <option value="1">USA</option>
+                <option value="2">Germany</option>
+                <option value="3">Ukraine</option>
+              </select>
+            </div>
+            <div>
+            <button id="regBtn" type="submit" class="btn btn-success">Register</button>
+            </div>
+          </div>
+        </div>
         <!-- <div class="btn-group" role="group" aria-label="Basic example">
           <div class="row justify-content-around">
             <div class="col-lg-8">
@@ -77,8 +156,25 @@
         </div> -->
       </div>
     </header>
+
+    <div class="mainPageInner">
+      <div class="container">
+        <div class="row position-relative">
+          <div class="col-lg-5">
+            <img class="pat" src="https://gravislayder.ru/uploads/s/4/h/k/4hkpxcka6w3v/img/autocrop/f37b54481b3a22c4c34d2abfad5a20ad.jpg" alt="">
+          </div>
+          <div class="col-lg-7">
+            Патент (от лат. patens — открытый, ясный, очевидный, от полного наименования — litterae patentes — открытое письмо) — охранный документ, удостоверяющий исключительное право, авторство и приоритет изобретения, полезной модели, промышленного образца либо селекционного достижения. Срок действия патента зависит от страны патентования, объекта патентования и составляет от 5 до 35 лет (ГК РФ Статья 1363, ГК РФ Статья 1424).[где?] Автору или соавторам за использование патента выплачивается авторское вознаграждение (по договору с патентовладельцем). За предоставление лицензии на право производства продукта или использования способа, патентовладелец (лицензиар) получает (одноразовый) паушальный платёж или ежегодные отчисления от лицензиата, роялти.
+
+Патент выдаётся государственным органом исполнительной власти по интеллектуальной собственности; например, в Российской Федерации таким органом является Роспатент, в США — Бюро по регистрации патентов и торговых марок США. Международное регулирование осуществляют Всемирная организация интеллектуальной собственности (выполняющая, в том числе, соответствующие функции при ООН), Объединённые международные бюро по охране интеллектуальной собственности и другие. Во Всемирной торговой организации эти отношения регулируются, в том числе, «Соглашением по торговым аспектам прав интеллектуальной собственности».
+          </div>
+        </div>
+      </div>
+    </div>
+
   </wrapper>
   
 </body>
-<script src="index.js"></script>
+<script src="./JS/index.js"></script>
+<script src="./JS/db.js"></script>
 </html>
