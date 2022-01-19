@@ -1,0 +1,34 @@
+.header {
+  padding: 10px 0;
+  background-color: rgb(203, 219, 240);
+  display: flex;
+  justify-content: center;
+}
+
+.in-group {
+  display: flex;
+  justify-content: end;
+}
+
+.info-group {
+  display: flex;
+  justify-content: start;
+}
+
+.in-group button, .info-group button {
+  margin: 0 20px;
+}
+
+#label {
+  margin-top: 3px;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.log-in-form {
+  width: 60%;
+  /* height: 70%; */
+  position: absolute;
+  background-color: rgb(67, 230, 65);
+}
