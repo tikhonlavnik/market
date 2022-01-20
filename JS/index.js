@@ -22,8 +22,8 @@ logIn.addEventListener("click", () => {
 regIn.addEventListener("click", () => {
   document.querySelector(".regIn-form").style.display = "block";
   rg = document.querySelector("#regBtn");
-  rg.addEventListener("click", () => {
-    document.querySelector(".regIn-form").style.display = "none";
-  })
+  // rg.addEventListener("click", () => {
+  //   document.querySelector(".regIn-form").style.display = "none";
+  // })
 })
 
